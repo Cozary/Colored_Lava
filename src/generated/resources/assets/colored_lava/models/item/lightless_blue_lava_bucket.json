@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "colored_lava:items/lightless_blue_lava_bucket"
+  }
+}

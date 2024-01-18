@@ -1,0 +1,30 @@
+modLoader = "javafml"
+license="GPL-3.0-or-later"
+loaderVersion = "[40,)"
+
+[[mods]]
+
+modId = "colored_lava"
+version = "1.18.2-1.0.1"
+displayName = "Colored Lava"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/colored_lava"
+issueTrackerURL="https://github.com/Cozary/colored_lava/issues"
+authors = "Cozary"
+credits = "Thanks for download this mod uwu"
+description = '''
+    This mod adds colored lava!
+    '''
+
+[[dependencies.colored_lava]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.colored_lava]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
